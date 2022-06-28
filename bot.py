@@ -7,7 +7,7 @@ PORT = int(os.environ.get('PORT', '8443'))
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(__logosdid__)
 TOKEN = '1816279599:AAFKaXx1gpnjjOUNAlautw0nDy6XzolT95g'
 
 # Define a few command handlers. These usually take the two arguments update and
